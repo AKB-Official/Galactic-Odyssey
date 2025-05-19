@@ -88,9 +88,3 @@
 .smuggler-path-box, .timeline-box {
     border-color: #656565;
 }
-
-/* SPECIAL EFFECTS HERE */
-
-.sith-path-box:hover, .jedi-path-box:hover, .bounty-hunter-path-box:hover, .imperial-path-box:hover, .rebel-path-box:hover, .smuggler-path-box:hover, .characters-box:hover, .beats-box:hover, .planets-box:hover, .vehicles-box:hover, .wars-info-box:hover, .timeline-box:hover {
-    background-color: #000000;
-}
