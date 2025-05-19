@@ -22,3 +22,12 @@
     font-size: 40px;
     text-decoration: none;
 }
+
+.sith-path-box a {
+    color: #950505;
+}
+
+.sith-path-box {
+    border-color: #950505;
+    border-style: solid;
+}
