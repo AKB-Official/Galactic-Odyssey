@@ -2,24 +2,29 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 150px;
+    margin-left: 100px;
+    line-height: 95px;
+    margin-top: 50px;
 }
 
 .sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
-    width: 300px;
+    width: 350px;
     background-color: #ffffff;
     height: 100px;
     text-align: center;
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
+    border-radius: 20px;
 }
 
 .sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
     font-size: 40px;
     text-decoration: none;
+    justify-content: center;
+
 }
 
 .sith-path-box a {
-    unicode-bidi: bidi-override;
+    vertical-align: super;
 }
