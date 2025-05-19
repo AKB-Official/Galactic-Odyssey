@@ -21,10 +21,4 @@
 .sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
     font-size: 40px;
     text-decoration: none;
-    justify-content: center;
-
-}
-
-.sith-path-box a {
-    vertical-align: super;
 }
