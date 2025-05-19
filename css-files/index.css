@@ -1,16 +1,25 @@
 .flex-main-container-one {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    margin-left: 150px;
 }
 
 .sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
     width: 300px;
     background-color: #ffffff;
-    height: 75px;
+    height: 100px;
     text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
     font-size: 40px;
-    padding-top: 20px;
+    text-decoration: none;
+}
+
+.sith-path-box a {
+    unicode-bidi: bidi-override;
 }
