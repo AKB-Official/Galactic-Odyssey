@@ -10,27 +10,27 @@
 }
 
 /* FLEX CONTAINTER SETTINGS */
-.flex-main-container-one {
+.flex-main-container-one, .flex-container-two {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 70px;
     line-height: 95px;
     margin-top: 0px;
 }
 
-.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
-    width: 350px;
+.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box, .characters-box, .beats-box, .planets-box, .vehicles-box, .wars-info-box, .timeline-box {
+    width: 375px;
     background-color: #ffffff;
     height: 100px;
     text-align: center;
     margin-top: 50px;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 40px;
     border-radius: 20px;
 }
 
-.sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
+.sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a, .characters-box a, .beats-box a, .planets-box a, .vehicles-box a, .wars-info-box a, .timeline-box a {
     font-size: 40px;
     text-decoration: none;
 }
