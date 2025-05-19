@@ -35,6 +35,10 @@
     text-decoration: none;
 }
 
+.flex-main-container-one, .flex-container-two {
+    margin-bottom: 200px;
+}
+
 /* TEXT COLOR */
 .sith-path-box a, .characters-box a {
     color: #950505;
