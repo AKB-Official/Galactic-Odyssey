@@ -2,3 +2,15 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
+    width: 300px;
+    background-color: #ffffff;
+    height: 75px;
+    text-align: center;
+}
+
+.sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
+    font-size: 40px;
+    padding-top: 20px;
+}
