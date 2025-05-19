@@ -60,7 +60,6 @@
     color: #656565;
 }
 
-
 /* BORDER SETTINGS */
 .sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box, .characters-box, .beats-box, .planets-box, .vehicles-box, .wars-info-box, .timeline-box {
     border-style: solid;
@@ -88,4 +87,10 @@
 
 .smuggler-path-box, .timeline-box {
     border-color: #656565;
+}
+
+/* SPECIAL EFFECTS HERE */
+
+.sith-path-box:hover, .jedi-path-box:hover, .bounty-hunter-path-box:hover, .imperial-path-box:hover, .rebel-path-box:hover, .smuggler-path-box:hover, .characters-box:hover, .beats-box:hover, .planets-box:hover, .vehicles-box:hover, .wars-info-box:hover, .timeline-box:hover {
+    background-color: #000000;
 }
