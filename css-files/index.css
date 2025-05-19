@@ -1,10 +1,22 @@
+/* TITLE OF CONTAINER */
+.title-of-container h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-of-container {
+    margin-top: 80px;
+}
+
+/* FLEX CONTAINTER SETTINGS */
 .flex-main-container-one {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-left: 100px;
     line-height: 95px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
