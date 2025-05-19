@@ -36,56 +36,56 @@
 }
 
 /* TEXT COLOR */
-.sith-path-box a {
+.sith-path-box a, .characters-box a {
     color: #950505;
 }
 
-.jedi-path-box a {
+.jedi-path-box a, .beats-box a {
     color: #01b2bb;
 }
 
-.bounty-hunter-path-box a {
+.bounty-hunter-path-box a, .planets-box a {
     color: #019b11;
 }
 
-.imperial-path-box a {
+.imperial-path-box a, .vehicles-box a {
     color: #404040;
 }
 
-.rebel-path-box a {
+.rebel-path-box a, .wars-info-box a {
     color: #9b5801;
 }
 
-.smuggler-path-box a {
+.smuggler-path-box a, .timeline-box a {
     color: #656565;
 }
 
 
 /* BORDER SETTINGS */
-.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
+.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box, .characters-box, .beats-box, .planets-box, .vehicles-box, .wars-info-box, .timeline-box {
     border-style: solid;
 }
 
-.sith-path-box {
+.sith-path-box, .characters-box {
     border-color: #950505;
 }
 
-.jedi-path-box {
+.jedi-path-box, .beats-box {
     border-color: #01b2bb;
 }
 
-.bounty-hunter-path-box {
+.bounty-hunter-path-box, .planets-box {
     border-color: #019b11;
 }
 
-.imperial-path-box {
+.imperial-path-box, .vehicles-box {
     border-color: #404040;
 }
 
-.rebel-path-box {
+.rebel-path-box, .wars-info-box {
     border-color: #9b5801;
 }
 
-.smuggler-path-box {
+.smuggler-path-box, .timeline-box {
     border-color: #656565;
 }
