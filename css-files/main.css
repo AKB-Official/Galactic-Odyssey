@@ -23,7 +23,7 @@ main.page-body {
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../media/background-image.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../media/background-image.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
