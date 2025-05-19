@@ -1,0 +1,91 @@
+/* TITLE OF CONTAINER */
+.title-of-container h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-of-container {
+    margin-top: 80px;
+}
+
+/* FLEX CONTAINTER SETTINGS */
+.flex-main-container-one {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 100px;
+    line-height: 95px;
+    margin-top: 0px;
+}
+
+.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
+    width: 350px;
+    background-color: #ffffff;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.sith-path-box a, .jedi-path-box a, .bounty-hunter-path-box a, .imperial-path-box a, .rebel-path-box a, .smuggler-path-box a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+/* TEXT COLOR */
+.sith-path-box a {
+    color: #950505;
+}
+
+.jedi-path-box a {
+    color: #01b2bb;
+}
+
+.bounty-hunter-path-box a {
+    color: #019b11;
+}
+
+.imperial-path-box a {
+    color: #404040;
+}
+
+.rebel-path-box a {
+    color: #9b5801;
+}
+
+.smuggler-path-box a {
+    color: #656565;
+}
+
+
+/* BORDER SETTINGS */
+.sith-path-box, .jedi-path-box, .bounty-hunter-path-box, .imperial-path-box, .rebel-path-box, .smuggler-path-box {
+    border-style: solid;
+}
+
+.sith-path-box {
+    border-color: #950505;
+}
+
+.jedi-path-box {
+    border-color: #01b2bb;
+}
+
+.bounty-hunter-path-box {
+    border-color: #019b11;
+}
+
+.imperial-path-box {
+    border-color: #404040;
+}
+
+.rebel-path-box {
+    border-color: #9b5801;
+}
+
+.smuggler-path-box {
+    border-color: #656565;
+}
