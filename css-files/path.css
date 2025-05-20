@@ -1,17 +1,15 @@
+/* FLEX CONTAINER SETTING */
 .sith-path-flex-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 50px;
 }
 
+/* BOXES SETTING */
 .image-holder img {
     width: 200px;
     height: 120px;
-}
-
-.sith-lord-transcripts {
-    border-color: #950505;
-    border-style: solid;
 }
 
 .text-container {
@@ -28,4 +26,21 @@
     padding-top: 20px;
     text-decoration: none;
     color: #950505;
+}
+
+/* SPEFIC BOXES SETTING */
+
+.sith-lord-transcripts {
+    border-color: #950505;
+    border-style: solid;
+}
+
+.sith-lord-transcripts img, .sith-lord-transcripts {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.sith-lord-transcripts, .text-container {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
