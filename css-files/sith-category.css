@@ -4,3 +4,25 @@
     width: 100%;
     margin-top: 100px;
 }
+
+/* BOXES SETTING */
+.image-holder img {
+    width: 200px;
+    height: 120px;
+}
+
+.text-container {
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-top: -20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.text-container a {
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #950505;
+}
