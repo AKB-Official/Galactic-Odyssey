@@ -9,6 +9,11 @@
     height: 120px;
 }
 
+.sith-lord-transcripts {
+    border-color: #950505;
+    border-style: solid;
+}
+
 .text-container {
     width: 200px;
     height: 100px;
@@ -21,4 +26,6 @@
 .text-container a {
     font-size: 30px;
     padding-top: 20px;
+    text-decoration: none;
+    color: #950505;
 }
